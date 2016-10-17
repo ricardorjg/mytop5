@@ -1,0 +1,24 @@
+{
+  "name": "mytop5",
+  "version": "1.0.0",
+  "description": "App that register users and lets then create top 5 lists about their favourites things.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo José Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongoose": "^4.6.4",
+    "mongoose-beautiful-unique-validation": "^5.1.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
